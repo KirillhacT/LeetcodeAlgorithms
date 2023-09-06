@@ -49,7 +49,7 @@
     insert(x)   --> O(logN)
         a[n++] = x
         i = n - 1
-        while i > 0 and a[i] < a[(i-1)/2]   # a[(i-1)//2] - родидеть узла if
+        while i > 0 and a[i] < a[(i-1)/2]   # a[(i-1)//2] - родидеть узла i
             swap(a[i], a[(i-1)/2])
             i = (i-1)//2
 

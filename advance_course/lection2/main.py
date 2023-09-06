@@ -80,6 +80,7 @@ def sift_down(i, n):
 
 for i in range(len(heap)):  #--> O(nlogn)
     sift_up(i)
+# print(heap)
 for i in range(len(heap)-1, -1, -1): # n - 1 -> 0:
     swap(0, i)
     sift_down(0, i)
